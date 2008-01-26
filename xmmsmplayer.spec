@@ -1,6 +1,6 @@
 %define name xmmsmplayer
 %define version 0.5
-%define release %mkrel 5
+%define release %mkrel 6
 
 Name: %{name}
 Summary: An input plug-in for XMMS that plays videos using MPlayer
@@ -24,6 +24,7 @@ MPlayer. You'll need MPlayer properly installed and in the PATH.
 cat /dev/null > acinclude.m4
 aclocal
 autoconf
+libtoolize --force
 
 %build
 %configure2_5x
