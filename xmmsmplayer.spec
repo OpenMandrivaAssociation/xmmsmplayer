@@ -1,6 +1,6 @@
 %define name xmmsmplayer
 %define version 0.5
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name: %{name}
 Summary: An input plug-in for XMMS that plays videos using MPlayer
