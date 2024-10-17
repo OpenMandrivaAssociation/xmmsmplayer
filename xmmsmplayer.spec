@@ -9,7 +9,7 @@ Release: %{release}
 License: GPL
 Group: Video
 Source0: http://prdownloads.sourceforge.net/xmmsmplayer/%name-%{version}.tar.bz2
-URL: http://www.cse.iitb.ac.in/~nandan/xmmsmplayer/
+URL: https://www.cse.iitb.ac.in/~nandan/xmmsmplayer/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires:	libxmms-devel
 Requires: xmms
